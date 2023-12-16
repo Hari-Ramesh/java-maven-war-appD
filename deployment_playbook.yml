@@ -21,4 +21,4 @@
     ansible.builtin.shell: mv /home/ec2-user/{{group_id}}%2F{{artifact_id}}%2F{{version}}-{{build_number}}%2F{{artifact_id}}-{{version}}-{{ build_number}}.war /home/ec2-user/faangler.war
 
   - name: Deploying artifact in webapps
-    ansible.builtin.shell: cp /home/ec2-user/faangler.war /opt/apache-tomcat-9.0.83/webapps/faangler.war
+    ansible.builtin.shell: cp /home/ec2-user/faangler.war /opt/tomcat/webapps/faangler.war
