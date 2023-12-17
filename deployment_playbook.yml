@@ -3,7 +3,7 @@
   hosts: all
   become: true
   vars:
-    nexus_url: http://ec2-13-235-27-159.ap-south-1.compute.amazonaws.com:8081/repository
+    nexus_url: http://ec2-13-235-100-223.ap-south-1.compute.amazonaws.com:8081/repository
     repository_type: java-maven-war-appD-release
     group_id: com%2Fmycompany%2Fapp
     artifact_id: hello-world-war
@@ -21,4 +21,4 @@
     ansible.builtin.shell: mv /home/ec2-user/{{group_id}}%2F{{artifact_id}}%2F{{version}}-{{build_number}}%2F{{artifact_id}}-{{version}}-{{ build_number}}.war /home/ec2-user/faangler.war
 
   - name: Deploying artifact in webapps
-    ansible.builtin.shell: cp /home/ec2-user/faangler.war /opt/tomcat/webapps/faangler.war
+    ansible.builtin.shell: cp /home/ec2-user/faangler.war /opt/tomcat/apache-tomcat-9.0.84/webapps/faangler.war
