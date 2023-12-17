@@ -8,7 +8,7 @@
 	<h1>DevOps Training - 17 Dec 2023 Batch</h1>
 	<h1>This is automated deployment enabled using webhook to jenkins job</h1>
 	<h2>CI CD completed and automated demo</h2>
-	<h3>completed by HR</h3>
+	<h3>completed by Hari</h3>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
