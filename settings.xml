@@ -5,12 +5,12 @@
 
   <servers>
     <server>
-      <id>java-maven-war-appD-snapshot</id>
+      <id>java-maven-war-appH-snapshot</id>
       <username>admin</username>
       <password>admin</password>
     </server>
     <server>
-      <id>java-maven-war-appD-release</id>
+      <id>java-maven-war-appH-release</id>
       <username>admin</username>
       <password>admin</password>
     </server>
