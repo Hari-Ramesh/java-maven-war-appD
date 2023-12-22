@@ -31,19 +31,19 @@
 	</build>
  <repositories>
     <repository>
-      <id>java-maven-war-appD-group</id>
-      <url>http://3.110.130.235:8081/repository/java-maven-war-appD-group/</url>
+      <id>java-maven-war-appH-group</id>
+      <url>http://3.110.130.235:8081/repository/java-maven-war-appH-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
-      <id>java-maven-war-appD-snapshot</id>
-      <url>http://3.110.130.235:8081/repository/java-maven-war-appD-snapshot/</url>
+      <id>java-maven-war-appH-snapshot</id>
+      <url>http://3.110.130.235:8081/repository/java-maven-war-appH-snapshot/</url>
     </snapshotRepository>
     <repository>
-      <id>java-maven-war-appD-release</id>
-      <url>http://3.110.130.235:8081/repository/java-maven-war-appD-release/</url>
+      <id>java-maven-war-appH-release</id>
+      <url>http://3.110.130.235:8081/repository/java-maven-war-appH-release/</url>
     </repository>
   </distributionManagement>
 </project>
