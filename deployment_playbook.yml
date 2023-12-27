@@ -4,7 +4,7 @@
   become: true
   vars:
     nexus_url: http://ec2-13-212-228-220.ap-southeast-1.compute.amazonaws.com:8081/repository
-    repository_type: java-maven-war-appD-release
+    repository_type: java-maven-war-appH-release
     group_id: com%2Fmycompany%2Fapp
     artifact_id: hello-world-war
     version: 1.0.3
