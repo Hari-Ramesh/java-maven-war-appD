@@ -32,18 +32,18 @@
  <repositories>
     <repository>
       <id>java-maven-war-appH-group</id>
-      <url>http://18.141.163.57:8081/repository/java-maven-war-appH-group/</url>
+      <url>http://13.212.70.139:8081/repository/java-maven-war-appH-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>java-maven-war-appH-snapshot</id>
-      <url>http://18.141.163.57:8081/repository/java-maven-war-appH-snapshot/</url>
+      <url>http://13.212.70.139:8081/repository/java-maven-war-appH-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>java-maven-war-appH-release</id>
-      <url>http://18.141.163.57:8081/repository/java-maven-war-appH-release/</url>
+      <url>http://13.212.70.139:8081/repository/java-maven-war-appH-release/</url>
     </repository>
   </distributionManagement>
 </project>
