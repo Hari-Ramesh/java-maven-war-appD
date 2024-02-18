@@ -7,7 +7,7 @@
     repository_type: java-maven-war-appH-release
     group_id: com%2Fmycompany%2Fapp
     artifact_id: hello-world-war
-    version: 1.0.3
+    version: 1.0.4
     build_number: "{{build_number}}"
   tasks:
   - name: Download file from a file path
